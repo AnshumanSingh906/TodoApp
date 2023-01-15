@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 1000;
+  background-color: aqua;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.header {
+  color: black;
+}
+
+.body {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+button{
+  justify-content: flex-end;
+  margin: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: green;
+}
+*{
+  overflow: auto;
+}
+input {
+  width: 400px;
+  border: solid;
+  font-weight: 300;
+}
+.curr-list{
+  color: rgb(255, 255, 255);
+  border-style: ridge;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1%;
+  overflow: none;
+}
+.ul-list{
+  overflow: none;
+  list-style: circle;
+  display: flex;
+  margin-right: 15%;
+  flex-direction: column;
+  margin-left: 8%;
+}
+.delete-btn{
+  border-style:solid;
+  border: width 2px;
+  float: right;
+  
+}
+.delete-btn:hover{
+  margin-left: 1%;
+  border-style:solid;
+  background-color:  rgb(181, 52, 52);
+  border: width 2px;
+}
+.list-content{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  padding-left: 1%;
+}
